@@ -13,15 +13,15 @@ const HomePage = () => {
     useEffect(() => {
         const fetchNotes = async () => {
             try {
-                const res = await api.get("/notes");
+                const res = await axios.get("http://localhost:5001/api/notes")
                 console.log(res.data);
                 setNotes(res.data);
-                setIsRateLimited(false);
+                setIsRatedLimited(false);
             } catch (error) {
                 console.log("Error fetching notes");
                 console.log(error.response);
                 if (error.response?.status === 429) {
-                    setIsRateLimited(true);
+                    setIsRatedLimited(true);
                 } else {
                     toast.error("Failed to load notes");
                 }
