@@ -1,21 +1,20 @@
-<h1 align="center">📝 MERN Stack Note Taking App ✨</h1>
+# 📝 Aplicativo de Anotações com MERN Stack ✨
+<p align="center"></p>
 
+## Destaques:
 
-
-Highlights:
-
-- 🧱 Full-Stack App Built with the MERN Stack (MongoDB, Express, React, Node)
-- ✨ Create, Update, and Delete Notes with Title & Description
-- 🛠️ Build and Test a Fully Functional REST API
-- ⚙️ Rate Limiting with Upstash Redis — a Real-World Concept Explained Simply
-- 🚀 Completely Responsive UI
-- 🌐 Explore HTTP Methods, Status Codes & SQL vs NoSQL
-- 📦 Deployment Guide Included — Add the Live App to Your Resume
-- 📚 Designed for Absolute Beginners
+- 🧱 Aplicativo Full-Stack construído com MERN Stack (MongoDB, Express, React, Node)
+- ✨ Crie, atualize e exclua notas com título e descrição
+- 🛠️ Construa e teste uma API REST totalmente funcional
+- ⚙️ Limitação de taxa com Upstash Redis — um conceito do mundo real explicado de forma simples
+- 🚀 Interface totalmente responsiva
+- 🌐 Explore métodos HTTP, códigos de status e SQL vs NoSQL
+- 📦 Guia de implantação incluído — adicione o app publicado ao seu currículo
+- 📚 Projetado para iniciantes absolutos
 
 ---
 
-## 🧪 .env Setup
+## 🧪 Configuração do .env
 
 ### Backend (`/backend`)
 
